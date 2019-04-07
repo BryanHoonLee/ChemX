@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b71cb900fa9dec5488df2deb180db58f, type: 3}
+  m_Name: MixedRealityInputSystemProfile
+  m_EditorClassIdentifier: 
+  isCustomProfile: 1
+  focusProviderType:
+    reference: 
+  inputActionsProfile: {fileID: 11400000, guid: c22538bee140e9e4587265d9ee822a16,
+    type: 2}
+  inputActionRulesProfile: {fileID: 11400000, guid: 3797507574231f14b8edf0fa4fee7ba9,
+    type: 2}
+  pointerProfile: {fileID: 11400000, guid: ad1c1ebfd2f73f740b0aa4963920f667, type: 2}
+  gesturesProfile: {fileID: 11400000, guid: 9a1c241a7885bf5418fa210a85a9b90f, type: 2}
+  speechCommandsProfile: {fileID: 11400000, guid: 1737fa59726d0ad4d9fd68b5106e7ae2,
+    type: 2}
+  enableControllerMapping: 0
+  controllerMappingProfile: {fileID: 11400000, guid: a2c15ae4b60a3f04598664b06eafc87c,
+    type: 2}
+  controllerVisualizationProfile: {fileID: 0}
