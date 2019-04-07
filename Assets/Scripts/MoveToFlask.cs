@@ -20,7 +20,7 @@ public class MoveToFlask : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Alpha1))
-        {
+        { 
             startMoving = true;
         }
 

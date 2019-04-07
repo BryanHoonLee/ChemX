@@ -17,7 +17,7 @@ public class Flask : MonoBehaviour
     }
 
     void OnTriggerEnter(Collider other)
-    { 
+    {  
         if (other.gameObject.CompareTag("Molecule"))
         {
             other.gameObject.SetActive(false);
