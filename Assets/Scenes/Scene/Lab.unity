@@ -271,7 +271,7 @@ GameObject:
   - component: {fileID: 253410036}
   - component: {fileID: 253410037}
   m_Layer: 5
-  m_Name: SpawnNonMetal
+  m_Name: SpawnO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -322,7 +322,7 @@ GameObject:
   - component: {fileID: 567635053}
   - component: {fileID: 567635052}
   m_Layer: 5
-  m_Name: SpawnAM
+  m_Name: SpawnLi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -538,7 +538,7 @@ GameObject:
   - component: {fileID: 890586845}
   - component: {fileID: 890586844}
   m_Layer: 5
-  m_Name: SpawnAEM
+  m_Name: SpawnBe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -790,7 +790,7 @@ GameObject:
   - component: {fileID: 1560809822}
   - component: {fileID: 1560809821}
   m_Layer: 5
-  m_Name: SpawnHalogen
+  m_Name: SpawnF
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -979,7 +979,7 @@ GameObject:
   - component: {fileID: 2067580853}
   - component: {fileID: 2067580852}
   m_Layer: 5
-  m_Name: SpawnNobleGas
+  m_Name: SpawnHe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
