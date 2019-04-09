@@ -5,6 +5,15 @@ TagManager:
   serializedVersion: 2
   tags:
   - Molecule
+  - Alkaline Earth Metal
+  - Alkali Metal
+  - Halogen
+  - Noble Gas
+  - Nonmetal3
+  - Nonmetal4
+  - Nonmetal5
+  - Nonmetal6
+  - Nonmetal
   layers:
   - Default
   - TransparentFX
