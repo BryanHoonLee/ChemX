@@ -1429,8 +1429,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bd11e7cd5a1b4579b352b8473a3c236, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Element: {fileID: 0}
-  key: O
+  Element: {fileID: 6404738726071406292, guid: 3162c4137ac054116933a71ce66cd2c8, type: 3}
+  key: O4
   name: 
 --- !u!1 &913425944
 GameObject:
@@ -1480,8 +1480,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bd11e7cd5a1b4579b352b8473a3c236, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Element: {fileID: 0}
-  key: O
+  Element: {fileID: 6404738726071406292, guid: 087ec1a5a738740ecaf8a3bf314413e4, type: 3}
+  key: O2
   name: 
 --- !u!1 &924684661
 GameObject:
@@ -2397,8 +2397,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bd11e7cd5a1b4579b352b8473a3c236, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Element: {fileID: 0}
-  key: O
+  Element: {fileID: 6404738726071406292, guid: b5998a232a463437cb4068cdf85fd5ad, type: 3}
+  key: O3
   name: 
 --- !u!1 &1517463395
 GameObject:
@@ -2463,8 +2463,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bd11e7cd5a1b4579b352b8473a3c236, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Element: {fileID: 0}
-  key: O
+  Element: {fileID: 6404738726071406292, guid: 43777cd8a33404cf79460393a6ae3f82, type: 3}
+  key: O1
   name: 
 --- !u!224 &1560809822
 RectTransform:

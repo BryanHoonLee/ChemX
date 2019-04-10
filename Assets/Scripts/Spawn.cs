@@ -185,10 +185,33 @@ public class Spawn : MonoBehaviour
                 print("Te Spawned");
             }
         }
-        if (key == "O" && Input.GetKeyDown(KeyCode.O))
+        // Halogens
+        if (Input.GetKey(KeyCode.O))
         {
-            Instantiate(Element, transform.position, transform.rotation);
-            print("Halogen Spawned");
+            // F
+            if (key == "O1" && Input.GetKeyDown(KeyCode.Alpha1))
+            {
+                Instantiate(Element, transform.position, transform.rotation);
+                print("F Spawned");
+            }
+            // Cl
+            if (key == "O2" && Input.GetKeyDown(KeyCode.Alpha2))
+            {
+                Instantiate(Element, transform.position, transform.rotation);
+                print("Cl Spawned");
+            }
+            // Br
+            if (key == "O3" && Input.GetKeyDown(KeyCode.Alpha3))
+            {
+                Instantiate(Element, transform.position, transform.rotation);
+                print("Br Spawned");
+            }
+            // I
+            if (key == "O4" && Input.GetKeyDown(KeyCode.Alpha4))
+            {
+                Instantiate(Element, transform.position, transform.rotation);
+                print("I Spawned");
+            }
         }
         if (key == "P" && Input.GetKeyDown(KeyCode.P))
         {
