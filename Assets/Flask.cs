@@ -45,7 +45,7 @@ public class Flask : MonoBehaviour
             else
             {
                 resultText.text = "You Lose.";
-                checkAnswerText.text = ""
+                checkAnswerText.text = "";
                 unityChanAnimation.PlayLose();
             }
         }
