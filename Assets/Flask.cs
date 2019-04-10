@@ -36,7 +36,7 @@ public class Flask : MonoBehaviour
             }
             else
             {
-
+                resultText.text = "You Lose.";
             }
         }
     }
@@ -47,50 +47,50 @@ public class Flask : MonoBehaviour
         {
             if (other.gameObject.CompareTag("Alkali Metal"))
             {
-                UpdateElementList(other.name);
-                elementList.Add(new Element("Alkali Metal", other.name, +1));
+                name = UpdateElementList(other.name);
+                elementList.Add(new Element("Alkali Metal", name, +1));
                 other.gameObject.SetActive(false);
             }
             if (other.gameObject.CompareTag("Alkaline Earth Metal"))
             {
-                UpdateElementList(other.name);
-                elementList.Add(new Element("Alkali Earth Metal", other.name, +2));
+                name = UpdateElementList(other.name);
+                elementList.Add(new Element("Alkali Earth Metal", name, +2));
                 other.gameObject.SetActive(false);
             }
             if (other.gameObject.CompareTag("Nonmetal3"))
             {
-                UpdateElementList(other.name);
-                elementList.Add(new Element("Nonmetal", other.name, -3));
+                name = UpdateElementList(other.name);
+                elementList.Add(new Element("Nonmetal", name, -3));
                 other.gameObject.SetActive(false);
             }
             if (other.gameObject.CompareTag("Nonmetal4"))
             {
-                UpdateElementList(other.name);
-                elementList.Add(new Element("Nonmetal", other.name, -4));
+                name = UpdateElementList(other.name);
+                elementList.Add(new Element("Nonmetal", name, -4));
                 other.gameObject.SetActive(false);
             }
             if (other.gameObject.CompareTag("Nonmetal5"))
             {
-                UpdateElementList(other.name);
-                elementList.Add(new Element("Nonmetal", other.name, -5));
+                name = UpdateElementList(other.name);
+                elementList.Add(new Element("Nonmetal", name, -5));
                 other.gameObject.SetActive(false);
             }
             if (other.gameObject.CompareTag("Nonmetal6"))
             {
-                UpdateElementList(other.name);
-                elementList.Add(new Element("Nonmetal", other.name, -6));
+                name = UpdateElementList(other.name);
+                elementList.Add(new Element("Nonmetal", name, -6));
                 other.gameObject.SetActive(false);
             }
             if (other.gameObject.CompareTag("Halogen"))
             {
-                UpdateElementList(other.name);
-                elementList.Add(new Element("Halogen", other.name, -7));
+                name = UpdateElementList(other.name);
+                elementList.Add(new Element("Halogen", name, -7));
                 other.gameObject.SetActive(false);
             }
             if (other.gameObject.CompareTag("Noble Gas"))
             {
-                UpdateElementList(other.name);
-                elementList.Add(new Element("Noble Gas", other.name, 0));
+                name = UpdateElementList(other.name);
+                elementList.Add(new Element("Noble Gas", name, 0));
                 other.gameObject.SetActive(false);
             }
         }
@@ -106,10 +106,6 @@ public class Flask : MonoBehaviour
             answer.Add(s);
         }
 
-        foreach(Element s in elementList)
-        {
-            resultText.text += s.name;
-        }
 
         // If More Elements than Answer
         if (answer.Count == 0 && elementList.Count > 0)
@@ -149,7 +145,7 @@ public class Flask : MonoBehaviour
         return true;
     }
 
-    private void UpdateElementList(string elementName)
+    private string UpdateElementList(string elementName)
     {
         string[] temp = elementName.Split('(');
         if (elementList.Count == 0)
@@ -160,6 +156,7 @@ public class Flask : MonoBehaviour
         {
             elemList.text += " + " + temp[0];
         }
+        return temp[0];
     }
 
     private QnA GenerateQnA()

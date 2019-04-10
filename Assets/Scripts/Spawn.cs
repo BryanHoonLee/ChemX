@@ -26,17 +26,17 @@ public class Spawn : MonoBehaviour
                 Instantiate(Element, transform.position, transform.rotation);
                 print("Li Spawned");
             }
-            // K
+            // Na
             if (key == "A2" && Input.GetKeyDown(KeyCode.Alpha2))
             {
                 Instantiate(Element, transform.position, transform.rotation);
-                print("K Spawned");
+                print("Na Spawned");
             }
-            // Na
+            // K
             if (key == "A3" && Input.GetKeyDown(KeyCode.Alpha3))
             {
                 Instantiate(Element, transform.position, transform.rotation);
-                print("Na Spawned");
+                print("K Spawned");
             }
             // Rb
             if (key == "A4" && Input.GetKeyDown(KeyCode.Alpha4))
