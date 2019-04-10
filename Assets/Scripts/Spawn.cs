@@ -107,7 +107,7 @@ public class Spawn : MonoBehaviour
                 print("B Spawned");
             }
         }
-        // NonMetal4
+        // NonMetal 4
         if (Input.GetKey(KeyCode.W))
         {
             // C
@@ -129,20 +129,61 @@ public class Spawn : MonoBehaviour
                 print("Si Spawned");
             }
         }
-        if (key == "W" && Input.GetKeyDown(KeyCode.W))
+        // NonMetal 5
+        if (Input.GetKey(KeyCode.E))
         {
-            Instantiate(Element, transform.position, transform.rotation);
-            print("Non Metal 4 Spawned");
+            // N
+            if (key == "E1" && Input.GetKeyDown(KeyCode.Alpha1))
+            {
+                Instantiate(Element, transform.position, transform.rotation);
+                print("N Spawned");
+            }
+            // As
+            if (key == "E2" && Input.GetKeyDown(KeyCode.Alpha2))
+            {
+                Instantiate(Element, transform.position, transform.rotation);
+                print("As Spawned");
+            }
+            // P
+            if (key == "E3" && Input.GetKeyDown(KeyCode.Alpha3))
+            {
+                Instantiate(Element, transform.position, transform.rotation);
+                print("P Spawned");
+            }
+            // Sb
+            if (key == "E4" && Input.GetKeyDown(KeyCode.Alpha4))
+            {
+                Instantiate(Element, transform.position, transform.rotation);
+                print("Sb Spawned");
+            }
         }
-        if (key == "E" && Input.GetKeyDown(KeyCode.E))
+        // NonMetal 6
+        if (Input.GetKey(KeyCode.R))
         {
-            Instantiate(Element, transform.position, transform.rotation);
-            print("Non Metal 5 Spawned");
-        }
-        if (key == "R" && Input.GetKeyDown(KeyCode.R))
-        {
-            Instantiate(Element, transform.position, transform.rotation);
-            print("Non Metal 6 Spawned");
+            // O
+            if (key == "R1" && Input.GetKeyDown(KeyCode.Alpha1))
+            {
+                Instantiate(Element, transform.position, transform.rotation);
+                print("O Spawned");
+            }
+            // S
+            if (key == "R2" && Input.GetKeyDown(KeyCode.Alpha2))
+            {
+                Instantiate(Element, transform.position, transform.rotation);
+                print("S Spawned");
+            }
+            // Se
+            if (key == "R3" && Input.GetKeyDown(KeyCode.Alpha3))
+            {
+                Instantiate(Element, transform.position, transform.rotation);
+                print("Se Spawned");
+            }
+            // Te
+            if (key == "R4" && Input.GetKeyDown(KeyCode.Alpha4))
+            {
+                Instantiate(Element, transform.position, transform.rotation);
+                print("Te Spawned");
+            }
         }
         if (key == "O" && Input.GetKeyDown(KeyCode.O))
         {
