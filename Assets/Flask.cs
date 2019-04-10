@@ -11,6 +11,8 @@ public class Flask : MonoBehaviour
     public Text questionText;
     public Text resultText;
 
+    public UnityChanBehavior unityChanAnimation;
+
     private QnA prompt;
     private List<Element> elementList = new List<Element>();
 
@@ -22,6 +24,8 @@ public class Flask : MonoBehaviour
         isFinished = false;
         elemList.text = "Elements: ";
         resultText.text = "";
+
+        unityChanAnimation = FindObjectOfType<UnityChanBehavior>();
     }
 
     // Update is called once per frame
@@ -33,10 +37,12 @@ public class Flask : MonoBehaviour
             if (CheckAnswer())
             {
                 resultText.text = "You Win!";
+                unityChanAnimation.PlayWin();
             }
             else
             {
                 resultText.text = "You Lose.";
+                unityChanAnimation.PlayLose();
             }
         }
     }
