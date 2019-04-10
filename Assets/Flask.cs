@@ -9,6 +9,7 @@ public class Flask : MonoBehaviour
     public bool isFinished;
     public Text elemList;
     public Text questionText;
+    public Text checkAnswerText;
     public Text resultText;
 
     public UnityChanBehavior unityChanAnimation;
@@ -23,6 +24,7 @@ public class Flask : MonoBehaviour
         questionText.text = "Create\n  " + prompt.question;
         isFinished = false;
         elemList.text = "Elements: ";
+        checkAnswerText.text = "Press SPACE to\n Check Answer";
         resultText.text = "";
 
         unityChanAnimation = FindObjectOfType<UnityChanBehavior>();
@@ -37,11 +39,13 @@ public class Flask : MonoBehaviour
             if (CheckAnswer())
             {
                 resultText.text = "You Win!";
+                checkAnswerText.text = "";
                 unityChanAnimation.PlayWin();
             }
             else
             {
                 resultText.text = "You Lose.";
+                checkAnswerText.text = ""
                 unityChanAnimation.PlayLose();
             }
         }
