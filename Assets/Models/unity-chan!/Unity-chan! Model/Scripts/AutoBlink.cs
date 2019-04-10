@@ -18,8 +18,7 @@ namespace UnityChan
 		public float ratio_Close = 85.0f;			//閉じ目ブレンドシェイプ比率
 		public float ratio_HalfClose = 20.0f;		//半閉じ目ブレンドシェイプ比率
 		[HideInInspector]
-		public float
-			ratio_Open = 0.0f;
+		public float ratio_Open = 0.0f;
 		private bool timerStarted = false;			//タイマースタート管理用
 		private bool isBlink = false;				//目パチ管理用
 
