@@ -59,49 +59,41 @@ public class Flask : MonoBehaviour
             {
                 name = UpdateElementList(other.name);
                 elementList.Add(new Element("Alkali Metal", name, +1));
-                other.gameObject.SetActive(false);
             }
             if (other.gameObject.CompareTag("Alkaline Earth Metal"))
             {
                 name = UpdateElementList(other.name);
                 elementList.Add(new Element("Alkali Earth Metal", name, +2));
-                other.gameObject.SetActive(false);
             }
             if (other.gameObject.CompareTag("Nonmetal3"))
             {
                 name = UpdateElementList(other.name);
                 elementList.Add(new Element("Nonmetal", name, -3));
-                other.gameObject.SetActive(false);
             }
             if (other.gameObject.CompareTag("Nonmetal4"))
             {
                 name = UpdateElementList(other.name);
                 elementList.Add(new Element("Nonmetal", name, -4));
-                other.gameObject.SetActive(false);
             }
             if (other.gameObject.CompareTag("Nonmetal5"))
             {
                 name = UpdateElementList(other.name);
                 elementList.Add(new Element("Nonmetal", name, -5));
-                other.gameObject.SetActive(false);
             }
             if (other.gameObject.CompareTag("Nonmetal6"))
             {
                 name = UpdateElementList(other.name);
                 elementList.Add(new Element("Nonmetal", name, -6));
-                other.gameObject.SetActive(false);
             }
             if (other.gameObject.CompareTag("Halogen"))
             {
                 name = UpdateElementList(other.name);
                 elementList.Add(new Element("Halogen", name, -7));
-                other.gameObject.SetActive(false);
             }
             if (other.gameObject.CompareTag("Noble Gas"))
             {
                 name = UpdateElementList(other.name);
                 elementList.Add(new Element("Noble Gas", name, 0));
-                other.gameObject.SetActive(false);
             }
         }
     }
