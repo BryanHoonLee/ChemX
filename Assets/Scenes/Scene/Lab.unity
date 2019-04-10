@@ -763,8 +763,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bd11e7cd5a1b4579b352b8473a3c236, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Element: {fileID: 0}
-  key: W
+  Element: {fileID: 6404738726071406292, guid: d35e9e02210a349b5a14865a28197081, type: 3}
+  key: W2
   name: 
 --- !u!1 &382310169
 GameObject:
@@ -1052,8 +1052,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bd11e7cd5a1b4579b352b8473a3c236, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Element: {fileID: 0}
-  key: W
+  Element: {fileID: 6404738726071406292, guid: 5993e2a1b1f1c45e7a071dff2e779d45, type: 3}
+  key: W1
   name: 
 --- !u!1 &726147152
 GameObject:
@@ -2055,8 +2055,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bd11e7cd5a1b4579b352b8473a3c236, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Element: {fileID: 0}
-  key: Q
+  Element: {fileID: 6404738726071406292, guid: b551a546e87fe448da389f6f34f92e27, type: 3}
+  key: Q1
   name: 
 --- !u!1 &1393776229
 GameObject:
@@ -2532,8 +2532,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bd11e7cd5a1b4579b352b8473a3c236, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Element: {fileID: 0}
-  key: W
+  Element: {fileID: 6404738726071406292, guid: 9d70d20158d0b4b1eab69c3030f85bce, type: 3}
+  key: W3
   name: 
 --- !u!4 &1907665546 stripped
 Transform:

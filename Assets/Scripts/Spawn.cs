@@ -97,10 +97,37 @@ public class Spawn : MonoBehaviour
                 print("Ra Spawned");
             }
         }
-        if (key == "Q" && Input.GetKeyDown(KeyCode.Q))
+        // NonMetal 3
+        if (Input.GetKey(KeyCode.Q))
         {
-            Instantiate(Element, transform.position, transform.rotation);
-            print("Non Metal 3 Spawned");
+            // B
+            if (key == "Q1" && Input.GetKeyDown(KeyCode.Alpha1))
+            {
+                Instantiate(Element, transform.position, transform.rotation);
+                print("B Spawned");
+            }
+        }
+        // NonMetal4
+        if (Input.GetKey(KeyCode.W))
+        {
+            // C
+            if (key == "W1" && Input.GetKeyDown(KeyCode.Alpha1))
+            {
+                Instantiate(Element, transform.position, transform.rotation);
+                print("C Spawned");
+            }
+            // Ge
+            if (key == "W2" && Input.GetKeyDown(KeyCode.Alpha2))
+            {
+                Instantiate(Element, transform.position, transform.rotation);
+                print("Ge Spawned");
+            }
+            // Si
+            if (key == "W3" && Input.GetKeyDown(KeyCode.Alpha3))
+            {
+                Instantiate(Element, transform.position, transform.rotation);
+                print("Si Spawned");
+            }
         }
         if (key == "W" && Input.GetKeyDown(KeyCode.W))
         {
