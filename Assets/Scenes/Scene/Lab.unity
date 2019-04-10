@@ -324,7 +324,7 @@ GameObject:
   - component: {fileID: 176666519}
   m_Layer: 5
   m_Name: SpawnSb
-  m_TagString: Untagged
+  m_TagString: Nonmetal5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -375,7 +375,7 @@ GameObject:
   - component: {fileID: 208149335}
   m_Layer: 5
   m_Name: SpawnAs
-  m_TagString: Untagged
+  m_TagString: Nonmetal5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -495,7 +495,7 @@ GameObject:
   - component: {fileID: 253410037}
   m_Layer: 5
   m_Name: SpawnO
-  m_TagString: Untagged
+  m_TagString: Nonmetal6
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -676,7 +676,7 @@ GameObject:
   - component: {fileID: 354708534}
   m_Layer: 5
   m_Name: SpawnRa
-  m_TagString: Untagged
+  m_TagString: Alkaline Earth Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -727,7 +727,7 @@ GameObject:
   - component: {fileID: 369896092}
   m_Layer: 5
   m_Name: SpawnGe
-  m_TagString: Untagged
+  m_TagString: Nonmetal4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -778,7 +778,7 @@ GameObject:
   - component: {fileID: 382310171}
   m_Layer: 5
   m_Name: SpawnS
-  m_TagString: Untagged
+  m_TagString: Nonmetal6
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -863,7 +863,7 @@ GameObject:
   - component: {fileID: 432180000}
   m_Layer: 5
   m_Name: SpawnMg
-  m_TagString: Untagged
+  m_TagString: Alkaline Earth Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -914,7 +914,7 @@ GameObject:
   - component: {fileID: 562939945}
   m_Layer: 5
   m_Name: SpawnBa
-  m_TagString: Untagged
+  m_TagString: Alkaline Earth Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -965,7 +965,7 @@ GameObject:
   - component: {fileID: 567635052}
   m_Layer: 5
   m_Name: SpawnLi
-  m_TagString: Untagged
+  m_TagString: Alkali Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1016,7 +1016,7 @@ GameObject:
   - component: {fileID: 710937235}
   m_Layer: 5
   m_Name: SpawnC
-  m_TagString: Untagged
+  m_TagString: Nonmetal4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1159,7 +1159,7 @@ GameObject:
   - component: {fileID: 741703460}
   m_Layer: 5
   m_Name: SpawnSe
-  m_TagString: Untagged
+  m_TagString: Nonmetal6
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1291,7 +1291,7 @@ GameObject:
   - component: {fileID: 858913694}
   m_Layer: 5
   m_Name: SpawnCa
-  m_TagString: Untagged
+  m_TagString: Alkaline Earth Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1342,7 +1342,7 @@ GameObject:
   - component: {fileID: 890586844}
   m_Layer: 5
   m_Name: SpawnBe
-  m_TagString: Untagged
+  m_TagString: Alkaline Earth Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1393,7 +1393,7 @@ GameObject:
   - component: {fileID: 905291650}
   m_Layer: 5
   m_Name: SpawnI
-  m_TagString: Untagged
+  m_TagString: Halogen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1444,7 +1444,7 @@ GameObject:
   - component: {fileID: 913425946}
   m_Layer: 5
   m_Name: SpawnCl
-  m_TagString: Untagged
+  m_TagString: Halogen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1546,7 +1546,7 @@ GameObject:
   - component: {fileID: 1049131672}
   m_Layer: 5
   m_Name: SpawnK
-  m_TagString: Untagged
+  m_TagString: Alkali Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1733,7 +1733,7 @@ GameObject:
   - component: {fileID: 1212373208}
   m_Layer: 5
   m_Name: SpawnCs
-  m_TagString: Untagged
+  m_TagString: Alkali Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1784,7 +1784,7 @@ GameObject:
   - component: {fileID: 1225625824}
   m_Layer: 5
   m_Name: SpawnNa
-  m_TagString: Untagged
+  m_TagString: Alkali Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1886,7 +1886,7 @@ GameObject:
   - component: {fileID: 1334686889}
   m_Layer: 5
   m_Name: SpawnFr
-  m_TagString: Untagged
+  m_TagString: Alkali Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1937,7 +1937,7 @@ GameObject:
   - component: {fileID: 1351768026}
   m_Layer: 5
   m_Name: SpawnP
-  m_TagString: Untagged
+  m_TagString: Nonmetal5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2019,7 +2019,7 @@ GameObject:
   - component: {fileID: 1391589264}
   m_Layer: 5
   m_Name: SpawnB
-  m_TagString: Untagged
+  m_TagString: Nonmetal3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2070,7 +2070,7 @@ GameObject:
   - component: {fileID: 1393776231}
   m_Layer: 5
   m_Name: SpawnSr
-  m_TagString: Untagged
+  m_TagString: Alkaline Earth Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2157,7 +2157,7 @@ GameObject:
   - component: {fileID: 1402528825}
   m_Layer: 5
   m_Name: SpawnN
-  m_TagString: Untagged
+  m_TagString: Nonmetal5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2361,7 +2361,7 @@ GameObject:
   - component: {fileID: 1477701473}
   m_Layer: 5
   m_Name: SpawnBr
-  m_TagString: Untagged
+  m_TagString: Halogen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2446,7 +2446,7 @@ GameObject:
   - component: {fileID: 1560809821}
   m_Layer: 5
   m_Name: SpawnF
-  m_TagString: Untagged
+  m_TagString: Halogen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2497,7 +2497,7 @@ GameObject:
   - component: {fileID: 1832851666}
   m_Layer: 5
   m_Name: SpawnSi
-  m_TagString: Untagged
+  m_TagString: Nonmetal4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2633,7 +2633,7 @@ GameObject:
   - component: {fileID: 2016577070}
   m_Layer: 5
   m_Name: SpawnTe
-  m_TagString: Untagged
+  m_TagString: Nonmetal6
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2771,7 +2771,7 @@ GameObject:
   - component: {fileID: 2078721177}
   m_Layer: 5
   m_Name: SpawnRb
-  m_TagString: Untagged
+  m_TagString: Alkali Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

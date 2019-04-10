@@ -27,7 +27,7 @@ public class Flask : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.KeypadEnter))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             isFinished = true;
             if (CheckAnswer())
@@ -36,7 +36,7 @@ public class Flask : MonoBehaviour
             }
             else
             {
-                resultText.text = "You Lose.";
+
             }
         }
     }
@@ -101,6 +101,16 @@ public class Flask : MonoBehaviour
         List<string> answer = new List<string>();
         string[] temp = prompt.answer.Split(',');
 
+        foreach (string s in temp)
+        {
+            answer.Add(s);
+        }
+
+        foreach(Element s in elementList)
+        {
+            resultText.text += s.name;
+        }
+
         // If More Elements than Answer
         if (answer.Count == 0 && elementList.Count > 0)
         {
@@ -112,17 +122,12 @@ public class Flask : MonoBehaviour
             return false;
         }
 
-        foreach (string s in temp)
-        {
-            answer.Add(s);
-        }
-
         for (int i = 0; i < elementList.Count; i++)
         {
             if (answer.Contains(elementList[i].name))
             {
                 answer.Remove(elementList[i].name);
-                elementList.RemoveAt(i);
+                elementList.Remove(elementList[i]);
                 i--;
 
                 // Contains Incorrect Element
