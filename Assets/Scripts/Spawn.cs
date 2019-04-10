@@ -19,7 +19,22 @@ public class Spawn : MonoBehaviour
         if (key == "Q" && Input.GetKeyDown(KeyCode.Q))
         {
             Instantiate(Molecule, transform.position, transform.rotation);
-            print("Non Metal Spawned");
+            print("Non Metal 3 Spawned");
+        }
+        if (key == "W" && Input.GetKeyDown(KeyCode.W))
+        {
+            Instantiate(Molecule, transform.position, transform.rotation);
+            print("Non Metal 4 Spawned");
+        }
+        if (key == "E" && Input.GetKeyDown(KeyCode.E))
+        {
+            Instantiate(Molecule, transform.position, transform.rotation);
+            print("Non Metal 5 Spawned");
+        }
+        if (key == "R" && Input.GetKeyDown(KeyCode.R))
+        {
+            Instantiate(Molecule, transform.position, transform.rotation);
+            print("Non Metal 6 Spawned");
         }
         if (key == "O" && Input.GetKeyDown(KeyCode.O))
         {
