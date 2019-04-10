@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: MixedRealityGesturesProfile
   m_EditorClassIdentifier: 
   isCustomProfile: 1
-  manipulationGestures: 12
-  navigationGestures: 12
+  manipulationGestures: 0
+  navigationGestures: 0
   useRailsNavigation: 0
-  railsNavigationGestures: 12
+  railsNavigationGestures: 0
   windowsGestureAutoStart: 0
   gestures:
   - description: Hold
