@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 5169158192125138157, guid: 681d30c6783c94845a7635b4df3c4eb4,
         type: 3}
       propertyPath: m_Name
-      value: NobleGasPrefab
+      value: Ne
       objectReference: {fileID: 0}
     - target: {fileID: 2995569238147236947, guid: 681d30c6783c94845a7635b4df3c4eb4,
         type: 3}
