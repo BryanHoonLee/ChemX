@@ -10,18 +10,9 @@ public class MenuController : BaseFocusHandler
     public TextMesh textMesh;
     public GameObject Element;
 
-    public void clickedIonicButton()
-    {
-
-        textMesh.text = "Selected Ionic Bond";
-    }
-    public void clickedCovalentButton()
-    {
-        textMesh.text = "Selected Covalent Bond";
-    }
     public void clickedElementButton()
     {
-        if (Element.name.Equals("Cs"))
+        if (Element.name.Equals("Cs 1"))
         {
             Instantiate(Element, transform.position, transform.rotation);
             textMesh.text = "Cs Spawned";
@@ -51,9 +42,5 @@ public class MenuController : BaseFocusHandler
             textMesh.text = "Na Spawned";
         }
     }
-    public void clickedAlkalineEarthButton()
-    {
 
-    }
- 
 }
