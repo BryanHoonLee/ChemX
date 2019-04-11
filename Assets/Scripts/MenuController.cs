@@ -12,7 +12,7 @@ public class MenuController : BaseFocusHandler
 
     public void clickedElementButton()
     {
-        if (Element.name.Equals("Cs 1"))
+        if (Element.name.Equals("Cs"))
         {
             Instantiate(Element, transform.position, transform.rotation);
             textMesh.text = "Cs Spawned";
