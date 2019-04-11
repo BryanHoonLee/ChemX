@@ -26,7 +26,7 @@ public class MoveToFlask : MonoBehaviour
 
         if (startMoving)
         {
-            transform.position = Vector3.MoveTowards(transform.position, flask.position, speed * Time.deltaTime);
+           transform.position = Vector3.MoveTowards(transform.position, flask.position, speed * Time.deltaTime);
         }
     }
 }
