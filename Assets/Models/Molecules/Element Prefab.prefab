@@ -16,6 +16,8 @@ GameObject:
   - component: {fileID: 6734086772894073994}
   - component: {fileID: 1859068717446784246}
   - component: {fileID: 2387162996919523326}
+  - component: {fileID: 3948006870630230251}
+  - component: {fileID: 2472254518348585858}
   m_Layer: 0
   m_Name: Element Prefab
   m_TagString: Alkali Metal
@@ -32,7 +34,7 @@ Transform:
   m_GameObject: {fileID: 7185099006632495102}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.25656322, y: -0.5597598, z: 12.735976}
-  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -91,7 +93,7 @@ SphereCollider:
   m_GameObject: {fileID: 7185099006632495102}
   m_Material: {fileID: 13400000, guid: d274ac77d25de45a4b8b7a20dd7c8a9e, type: 2}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
@@ -102,7 +104,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7185099006632495102}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60d89014235f0411bbe0b7d680ccfae3, type: 3}
   m_Name: 
@@ -143,9 +145,41 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7185099006632495102}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3bf5db6a7b28140c2be90c67b9eadb87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Flask: {fileID: 3643034317820663371, guid: c20d33f94ab53474fa864fbf830b7a85, type: 3}
+--- !u!114 &3948006870630230251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7185099006632495102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03daa81ea5f685f4ebf6e32038d058ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  focusEnabled: 1
+  hostTransform: {fileID: 979663617910003520}
+  ManipulationMode: 4
+  constraintOnRotation: 0
+  constraintOnMovement: 0
+  handMoveType: 2
+  debugText: {fileID: 0}
+--- !u!65 &2472254518348585858
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7185099006632495102}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}

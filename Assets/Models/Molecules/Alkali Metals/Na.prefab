@@ -10,8 +10,13 @@ PrefabInstance:
     - target: {fileID: 5748471106626617477, guid: 5adbb2270bcd4204296525e0b8dc35bc,
         type: 3}
       propertyPath: m_Name
-      value: AlkaliMetal Prefab
+      value: Na
       objectReference: {fileID: 0}
+    - target: {fileID: 4380805466008378343, guid: 5adbb2270bcd4204296525e0b8dc35bc,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a91e5aa018939f746a91917ed7027708, type: 2}
     - target: {fileID: 2443277182901047355, guid: 5adbb2270bcd4204296525e0b8dc35bc,
         type: 3}
       propertyPath: m_LocalPosition.x

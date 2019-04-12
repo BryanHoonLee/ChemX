@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections;
+using Microsoft.MixedReality.Toolkit.Core.EventDatum.Input;
+using Microsoft.MixedReality.Toolkit.SDK.Input.Handlers;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Flask : MonoBehaviour
+public class Flask : BaseFocusHandler
 {  
     public bool isFinished;
     public Text elemList;
@@ -24,12 +26,33 @@ public class Flask : MonoBehaviour
         questionText.text = "Create\n  " + prompt.question;
         isFinished = false;
         elemList.text = "Elements: ";
-        checkAnswerText.text = "Press SPACE to\n Check Answer";
+        checkAnswerText.text = "Click to\n Check Answer";
         resultText.text = "";
 
         scientistAnimation = FindObjectOfType<ScientistBehavior>();
     }
 
+    List<Element> GetElementList()
+    {
+        return elementList;
+    }
+
+    public void Check_Answer()
+    {
+            isFinished = true;
+            if (CheckAnswer())
+            {
+                checkAnswerText.text = "Correct!";
+              
+                scientistAnimation.PlayWin();
+            }
+            else
+            {
+            checkAnswerText.text = "Incorrect";
+                
+                scientistAnimation.PlayLose();
+            }
+    }
     // Update is called once per frame
     void Update()
     {
@@ -193,6 +216,7 @@ public class Flask : MonoBehaviour
         public string answer { get; set; }
 
     }
+
 
     private class Element
     {
