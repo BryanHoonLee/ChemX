@@ -1,5 +1,34 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &3295039198076149789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4415337277262849045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23f9be7a3cb53794ead8b55e784b65aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  focusEnabled: 1
+  boxColliderToUse: {fileID: 8645625945137745794}
+  activateOnStart: 0
+  scaleMaximum: 2
+  scaleMinimum: 0.2
+  wireframeOnly: 0
+  wireframePadding: {x: 0, y: 0, z: 0}
+  flattenAxis: 0
+  wireframeShape: 0
+  wireframeMaterial: {fileID: 0}
+  handleMaterial: {fileID: 0}
+  handleGrabbedMaterial: {fileID: 0}
+  showScaleHandles: 1
+  showRotateHandles: 1
+  linkRadius: 0.005
+  ballRadius: 0.035
+  cornerRadius: 0.03
 --- !u!1001 &8250807685140276368
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69,3 +98,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5adbb2270bcd4204296525e0b8dc35bc, type: 3}
+--- !u!1 &4415337277262849045 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5748471106626617477, guid: 5adbb2270bcd4204296525e0b8dc35bc,
+    type: 3}
+  m_PrefabInstance: {fileID: 8250807685140276368}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &8645625945137745794 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 395101954601085714, guid: 5adbb2270bcd4204296525e0b8dc35bc,
+    type: 3}
+  m_PrefabInstance: {fileID: 8250807685140276368}
+  m_PrefabAsset: {fileID: 0}
