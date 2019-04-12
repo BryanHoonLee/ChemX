@@ -40,7 +40,122 @@ public class ElementController : BaseFocusHandler
         else if (element.name.Equals("Na"))
         {
             Instantiate(element, spawnPoint.transform.position, transform.rotation);
-            textMesh.text = "Na Spawned";
+        }
+        else if (element.name.Equals("Ba"))
+        {
+            Instantiate(element, spawnPoint.transform.position, transform.rotation);
+        }
+        else if (element.name.Equals("Be"))
+        {
+            Instantiate(element, spawnPoint.transform.position, transform.rotation);
+        }
+        else if (element.name.Equals("Ca"))
+        {
+            Instantiate(element, spawnPoint.transform.position, transform.rotation);
+        }
+        else if (element.name.Equals("Mg"))
+        {
+            Instantiate(element, spawnPoint.transform.position, transform.rotation);
+        }
+        else if (element.name.Equals("Ra"))
+        {
+            Instantiate(element, spawnPoint.transform.position, transform.rotation);
+        }
+        else if (element.name.Equals("Sr"))
+        {
+            Instantiate(element, spawnPoint.transform.position, transform.rotation);
+        }
+        else if (element.name.Equals("Br"))
+        {
+            Instantiate(element, spawnPoint.transform.position, transform.rotation);
+        }
+        else if (element.name.Equals("Cl"))
+        {
+            Instantiate(element, spawnPoint.transform.position, transform.rotation);
+        }
+        else if (element.name.Equals("F"))
+        {
+            Instantiate(element, spawnPoint.transform.position, transform.rotation);
+        }
+        else if (element.name.Equals("I"))
+        {
+            Instantiate(element, spawnPoint.transform.position, transform.rotation);
+        }
+        else if (element.name.Equals("Ar"))
+        {
+            Instantiate(element, spawnPoint.transform.position, transform.rotation);
+        }
+        else if (element.name.Equals("He"))
+        {
+            Instantiate(element, spawnPoint.transform.position, transform.rotation);
+        }
+        else if (element.name.Equals("Kr"))
+        {
+            Instantiate(element, spawnPoint.transform.position, transform.rotation);
+        }
+        else if (element.name.Equals("Ne"))
+        {
+            Instantiate(element, spawnPoint.transform.position, transform.rotation);
+        }
+        else if (element.name.Equals("Rn"))
+        {
+            Instantiate(element, spawnPoint.transform.position, transform.rotation);
+        }
+        else if (element.name.Equals("Xe"))
+        {
+            Instantiate(element, spawnPoint.transform.position, transform.rotation);
+        }
+        else if (element.name.Equals("B"))
+        {
+            Instantiate(element, spawnPoint.transform.position, transform.rotation);
+        }
+        else if (element.name.Equals("C"))
+        {
+            Instantiate(element, spawnPoint.transform.position, transform.rotation);
+        }
+        else if (element.name.Equals("Ge"))
+        {
+            Instantiate(element, spawnPoint.transform.position, transform.rotation);
+        }
+        else if (element.name.Equals("F"))
+        {
+            Instantiate(element, spawnPoint.transform.position, transform.rotation);
+        }
+        else if (element.name.Equals("Si"))
+        {
+            Instantiate(element, spawnPoint.transform.position, transform.rotation);
+        }
+        else if (element.name.Equals("As"))
+        {
+            Instantiate(element, spawnPoint.transform.position, transform.rotation);
+        }
+        else if (element.name.Equals("N"))
+        {
+            Instantiate(element, spawnPoint.transform.position, transform.rotation);
+        }
+        else if (element.name.Equals("P"))
+        {
+            Instantiate(element, spawnPoint.transform.position, transform.rotation);
+        }
+        else if (element.name.Equals("Sb"))
+        {
+            Instantiate(element, spawnPoint.transform.position, transform.rotation);
+        }
+        else if (element.name.Equals("O"))
+        {
+            Instantiate(element, spawnPoint.transform.position, transform.rotation);
+        }
+        else if (element.name.Equals("S"))
+        {
+            Instantiate(element, spawnPoint.transform.position, transform.rotation);
+        }
+        else if (element.name.Equals("Se"))
+        {
+            Instantiate(element, spawnPoint.transform.position, transform.rotation);
+        }
+        else if (element.name.Equals("Te"))
+        {
+            Instantiate(element, spawnPoint.transform.position, transform.rotation);
         }
     }
 
