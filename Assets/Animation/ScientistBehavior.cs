@@ -2,23 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UnityChanBehavior : MonoBehaviour
+public class ScientistBehavior : MonoBehaviour
 {
-    public Animator unityChanAnimator;
+    public Animator scientistAnimator;
 
     // Start is called before the first frame update
     void Start()
     {
-        unityChanAnimator = GetComponent<Animator>();
+        scientistAnimator = GetComponent<Animator>();
     }
 
     public void PlayLose()
     {
-        unityChanAnimator.Play("LOSE00", -1, 0f);
+        scientistAnimator.Play("LOSE00", -1, 0f);
     }
 
     public void PlayWin()
     {
-        unityChanAnimator.Play("WIN00", -1, 0f);
+        scientistAnimator.Play("WIN00", -1, 0f);
     }
 }
