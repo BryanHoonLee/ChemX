@@ -25,7 +25,7 @@ public class Flask : BaseFocusHandler
         prompt = GenerateQnA();
         questionText.text = "Create\n  " + prompt.question;
         isFinished = false;
-        elemList.text = "Elements: ";
+        elemList.text = "Elements: \n";
         checkAnswerText.text = "Click to\n Check Answer";
         resultText.text = "";
 
