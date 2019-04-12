@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -360,6 +360,25 @@ MonoBehaviour:
   Element: {fileID: 6404738726071406292, guid: ea74b71bbb6b5403aa017edfe9ee4e43, type: 3}
   key: E2
   name: 
+--- !u!1 &209265137 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3643034317820889707, guid: c20d33f94ab53474fa864fbf830b7a85,
+    type: 3}
+  m_PrefabInstance: {fileID: 3643034319253799998}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &209265143
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209265137}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.15976468, y: 0.23929505, z: 0.15859985}
+  m_Center: {x: -0.000000055879354, y: 0.119647525, z: -0.0000006109476}
 --- !u!1 &217032428
 GameObject:
   m_ObjectHideFlags: 0
@@ -2870,6 +2889,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3643034317820889707, guid: c20d33f94ab53474fa864fbf830b7a85,
+        type: 3}
+      propertyPath: m_Name
+      value: Flask_05
+      objectReference: {fileID: 0}
     - target: {fileID: 3643034317820663371, guid: c20d33f94ab53474fa864fbf830b7a85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2924,11 +2948,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3643034317820889707, guid: c20d33f94ab53474fa864fbf830b7a85,
-        type: 3}
-      propertyPath: m_Name
-      value: Flask_05
       objectReference: {fileID: 0}
     - target: {fileID: 3643034318354001467, guid: c20d33f94ab53474fa864fbf830b7a85,
         type: 3}

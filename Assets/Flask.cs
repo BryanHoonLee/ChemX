@@ -59,6 +59,7 @@ public class Flask : MonoBehaviour
             {
                 name = UpdateElementList(other.name);
                 elementList.Add(new Element("Alkali Metal", name, +1));
+                other.gameObject.SetActive(false);
             }
             if (other.gameObject.CompareTag("Alkaline Earth Metal"))
             {
