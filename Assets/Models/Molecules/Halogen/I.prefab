@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 5521050686181601631, guid: d258a19d0d65e7d408736efba3e0b469,
         type: 3}
       propertyPath: m_Name
-      value: HalogenPrefab
+      value: I
       objectReference: {fileID: 0}
     - target: {fileID: 2499596733105185249, guid: d258a19d0d65e7d408736efba3e0b469,
         type: 3}
@@ -67,5 +67,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4581186697585273405, guid: d258a19d0d65e7d408736efba3e0b469,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e7268e596932cb541834f57d320a4677, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d258a19d0d65e7d408736efba3e0b469, type: 3}

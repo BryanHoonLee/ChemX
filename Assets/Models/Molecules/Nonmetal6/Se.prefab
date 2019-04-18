@@ -10,8 +10,13 @@ PrefabInstance:
     - target: {fileID: 1380309068932942204, guid: a20d5eb9b287fc54db7b58f36bad595e,
         type: 3}
       propertyPath: m_Name
-      value: NonMetal6Prefab
+      value: Se
       objectReference: {fileID: 0}
+    - target: {fileID: 6929567131133071902, guid: a20d5eb9b287fc54db7b58f36bad595e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 56a9318ed9ffc5940b6860f6bacf8549, type: 2}
     - target: {fileID: 9009794566631348674, guid: a20d5eb9b287fc54db7b58f36bad595e,
         type: 3}
       propertyPath: m_LocalPosition.x

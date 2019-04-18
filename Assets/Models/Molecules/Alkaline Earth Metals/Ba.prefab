@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 1768698022080451024, guid: 2224a61265968664e9663e7c2e3692f4,
         type: 3}
       propertyPath: m_Name
-      value: AlkalineEarthMetalsPrefab
+      value: Ba
       objectReference: {fileID: 0}
     - target: {fileID: 8549312989952164206, guid: 2224a61265968664e9663e7c2e3692f4,
         type: 3}
@@ -67,5 +67,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7748089277184854706, guid: 2224a61265968664e9663e7c2e3692f4,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d805d830c4023774cb6259aca09f431e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2224a61265968664e9663e7c2e3692f4, type: 3}
