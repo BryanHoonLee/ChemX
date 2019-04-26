@@ -24,7 +24,7 @@ public class ScientistBehavior : MonoBehaviour
         {
             UpdateTime();
         }
-        if(timer <= IDLE_TIME && IsIdle())
+        if(timer >= IDLE_TIME && IsIdle())
         {
             int random = Random.Range(1, 4);
             scientistAnimator.Play("Idle_" + random, -1, 0f);
