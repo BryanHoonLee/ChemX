@@ -5,6 +5,7 @@ using Microsoft.MixedReality.Toolkit.SDK.Input.Handlers;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Flask : BaseFocusHandler
 {  
@@ -36,7 +37,17 @@ public class Flask : BaseFocusHandler
     {
         return elementList;
     }
+    public void Next_Question()
+    {
+        prompt = GenerateQnA();
+        questionText.text = "Create\n  " + prompt.question;
+        isFinished = false;
+        elemList.text = "Elements: \n";
+        checkAnswerText.text = "Click to\n Check Answer";
+        resultText.text = "";
 
+        elementList.Clear();
+    }
     public void Check_Answer()
     {
             isFinished = true;
