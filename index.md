@@ -4,5 +4,5 @@
 
 
 
-<h3 style="margin-top:80px 0;">Take a look at the presentation we put together for the Cal Poly Pomona Research Symposium! 
+<h3 style="margin:80px 0;">Take a look at the presentation we put together for the Cal Poly Pomona Research Symposium! 
 <a href=''><img alt='' src='Slide1.JPG' /></a>
